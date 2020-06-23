@@ -1,4 +1,4 @@
-package Algorithm_20200622;
+package algorithm_20200622;
 
 import java.util.Scanner;
 

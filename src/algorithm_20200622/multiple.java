@@ -1,4 +1,4 @@
-package Algorithm_20200622;
+package algorithm_20200622;
 
 public class multiple {
 	public static void main(String[] args) {

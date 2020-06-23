@@ -1,20 +1,25 @@
-package Algorithm_20200622;
+package algorithm_20200622;
 
 import java.util.Scanner;
 
-public class substract {
+public class sumof {
+	static int sumof(int a, int b) {
+		int total =0;
+		int i =a;
+		while(i<=b) {
+			total +=i;
+			i++;
+		}
+		return total;
+	}
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 		System.out.println("숫자를 입력하세요");
 		int a = stdIn.nextInt();
 		System.out.println("숫자를 입력하세요");
 		int b = stdIn.nextInt();
-		
-		while(b<=a) {
-			System.out.println("숫자를 재입력해주세요!!");
-			b=stdIn.nextInt();
-		}
-		System.out.println(b-a);
+		int result = sumof(a, b);
+		System.out.println("a부터 b까지의 합은 " + result);
 		
 	}
 }
