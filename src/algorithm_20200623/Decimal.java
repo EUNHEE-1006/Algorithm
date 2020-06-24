@@ -20,7 +20,7 @@ public class Decimal {
 				}
 			}
 		}
-		if(check==true) {
+		if(check) {
 			System.out.printf("%d는 소수입니다.",num);
 		}else {
 			System.out.printf("%d는 소수가 아닙니다.",num);
