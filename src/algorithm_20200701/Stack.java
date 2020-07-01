@@ -41,7 +41,7 @@ public class Stack {
 		return stk[ptr-1];
 	}
 	public int indexOf(int x) {
-		for (int i = 0; i < stk.length; i++) {
+		for (int i = 0; i < ptr; i++) {
 			if(stk[i]==x) {
 				return i;
 			}
@@ -68,7 +68,7 @@ public class Stack {
 		if(ptr==0) {
 			System.out.println("스택이 비어있습니다.");
 		}else {
-			for (int i = 0; i < stk.length; i++) {
+			for (int i = 0; i < ptr; i++) {
 				System.out.print(stk[i] + " ");
 			}
 			System.out.println();
